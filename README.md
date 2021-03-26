@@ -5,7 +5,6 @@ Essa API em nodeJs serve para transformar dados json em arquivos com formato .xl
 
 *  [NodeJS](https://nodejs.org/en/)
 *  [ExpressJS](https://expressjs.com/pt-br/)
-*  [MongooseJs (ORM)](https://mongoosejs.com/)
 *  [XLSX](https://github.com/SheetJS/sheetjs)
 *  [MomentJs](https://momentjs.com/)
 *  ES7 (ECMAScript 7)
