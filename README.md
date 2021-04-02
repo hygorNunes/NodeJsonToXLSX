@@ -5,7 +5,6 @@ Essa API em nodeJs serve para transformar dados json em arquivos com formato .xl
 
 *  [NodeJS](https://nodejs.org/en/)
 *  [ExpressJS](https://expressjs.com/pt-br/)
-*  [MongooseJs (ORM)](https://mongoosejs.com/)
 *  [XLSX](https://github.com/SheetJS/sheetjs)
 *  [MomentJs](https://momentjs.com/)
 *  ES7 (ECMAScript 7)
@@ -51,7 +50,11 @@ Essa API em nodeJs serve para transformar dados json em arquivos com formato .xl
 
 É necessário passar no body da requição um json com esse estrutura:
 
-`{"titulo": "Sample", "conteudo": [{}], "tipo": "xlsx"}`
+`{"titulo": "Sample", "conteudo": [{"key1":"value1", "key2":"value2"}], "tipo": "xlsx"}`
+
+Exemplo
+
+`{"titulo": "PedidoCliente", "conteudo": [{"produto":"Detergente", "codigo": "918928291",  "precoUnidade": 30.00, "quantidade": 2, "total": 60.00}, {"produto":"Ácido", "codigo": "918928291", "precoUnidade": 45.00, "quantidade": 2, "total": 90.00}], "tipo": "xlsx"}`
 
 
 
